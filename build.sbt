@@ -2,11 +2,13 @@ organization := "com.typesafe.play"
 
 name := "play-ebean-33-compat"
 
-version := "1.0.0"
+version := "1.0.1"
 
 autoScalaLibrary := false
 
 crossPaths := false
+
+javacOptions in compile ++= Seq("-source", "1.6", "-target", "1.6")
 
 mappings in (Compile, packageBin) := {
   val oldMappings: Seq[(File, String)] = (mappings in (Compile, packageBin)).value

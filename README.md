@@ -10,6 +10,6 @@ To use this library, add the following dependencies to your build file:
 ```scala
 libraryDependencies ++= Seq(
   "org.avaje.ebeanorm" % "avaje-ebeanorm" % "3.3.3",
-  "com.typesafe.play" % "play-ebean-33-compat" % "1.0.0"
+  "com.typesafe.play" % "play-ebean-33-compat" % "1.0.1"
 )
 ```
